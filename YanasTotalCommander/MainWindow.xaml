@@ -1,0 +1,30 @@
+﻿<Window x:Class="YanasTotalCommander.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:YanasTotalCommander"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ToolBar Height="25" VerticalAlignment="Top">
+                
+            <ToggleButton>
+                <Image Source="image/save.png" />
+            </ToggleButton>
+            <Separator />
+            <Button>
+                <Image Source="image/copy-icon.png" />
+            </Button>
+            <Separator />
+            <Button>
+                <Image Source="image/delete.png" />
+            </Button>
+            <Separator />
+            <Button>
+                <!--<Image Source="icon3.png" />-->
+            </Button>
+        </ToolBar>
+
+    </Grid>
+</Window>
